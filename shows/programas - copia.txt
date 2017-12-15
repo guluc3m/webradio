@@ -1,0 +1,82 @@
+{
+	"shows":[
+		{
+			"holamundo":[
+				{
+				
+					"temporada":"2012/2013",
+					"programas":[
+						{
+							"nombre":"hola mundo 004",
+							"feedMixcloud":"//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fdjstrikespain%2Fjuernesontour8%2F&embed_uuid=f5d73674-2a05-41f2-b53a-6b787d23675b&stylecolor=&embed_type=widget_standard&hide_cover=",
+							"descargaMP3":"http://jarama.gul.uc3m.es/programas/juernesontour-20130718.ogg",
+							"nombreDescarga":"juernesontour-20130718.ogg"
+						},
+						{
+							"nombre":"hola mundo 003",
+							"feedMixcloud":"//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fdjstrikespain%2Fjuernesontour7%2F&embed_uuid=d44104fc-cfb9-43d5-8dbe-291d184d57a9&stylecolor=&embed_type=widget_standard&hide_cover=",
+							"descargaMP3":"http://jarama.gul.uc3m.es/programas/juernesontour-20130620.ogg",
+							"nombreDescarga":"juernesontour-20130620.ogg"
+						}
+					]
+				},
+				{
+					"temporada":"2011/2012 2011/2010",
+					"programas":[
+						{
+							"nombre":"hola mundo 002",
+							"feedMixcloud":"//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fdjstrikespain%2Fjuernesontour8%2F&embed_uuid=f5d73674-2a05-41f2-b53a-6b787d23675b&stylecolor=&embed_type=widget_standard&hide_cover=",
+							"descargaMP3":"http://jarama.gul.uc3m.es/programas/juernesontour-20130718.ogg",
+							"nombreDescarga":"juernesontour-20130718.ogg"
+						},
+						{
+							"nombre":"hola mundo 001",
+							"feedMixcloud":"//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fdjstrikespain%2Fjuernesontour7%2F&embed_uuid=d44104fc-cfb9-43d5-8dbe-291d184d57a9&stylecolor=&embed_type=widget_standard&hide_cover=",
+							"descargaMP3":"http://jarama.gul.uc3m.es/programas/juernesontour-20130620.ogg",
+							"nombreDescarga":"juernesontour-20130620.ogg"
+						}
+					]
+				}
+			]
+		},
+		{
+			"latenight":[
+				{
+				
+					"temporada":"2012/2013",
+					"programas":[
+						{
+							"nombre":"late night 004",
+							"feedMixcloud":"//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fdjstrikespain%2Fjuernesontour8%2F&embed_uuid=f5d73674-2a05-41f2-b53a-6b787d23675b&stylecolor=&embed_type=widget_standard&hide_cover=",
+							"descargaMP3":"http://jarama.gul.uc3m.es/programas/juernesontour-20130718.ogg",
+							"nombreDescarga":"juernesontour-20130718.ogg"
+						},
+						{
+							"nombre":"late night 003",
+							"feedMixcloud":"//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fdjstrikespain%2Fjuernesontour7%2F&embed_uuid=d44104fc-cfb9-43d5-8dbe-291d184d57a9&stylecolor=&embed_type=widget_standard&hide_cover=",
+							"descargaMP3":"http://jarama.gul.uc3m.es/programas/juernesontour-20130620.ogg",
+							"nombreDescarga":"juernesontour-20130620.ogg"
+						}
+					]
+				},
+				{
+					"temporada":"2011/2012 2011/2010",
+					"programas":[
+						{
+							"nombre":"late night 002",
+							"feedMixcloud":"//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fdjstrikespain%2Fjuernesontour8%2F&embed_uuid=f5d73674-2a05-41f2-b53a-6b787d23675b&stylecolor=&embed_type=widget_standard&hide_cover=",
+							"descargaMP3":"http://jarama.gul.uc3m.es/programas/juernesontour-20130718.ogg",
+							"nombreDescarga":"juernesontour-20130718.ogg"
+						},
+						{
+							"nombre":"late night 001",
+							"feedMixcloud":"//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fdjstrikespain%2Fjuernesontour7%2F&embed_uuid=d44104fc-cfb9-43d5-8dbe-291d184d57a9&stylecolor=&embed_type=widget_standard&hide_cover=",
+							"descargaMP3":"http://jarama.gul.uc3m.es/programas/juernesontour-20130620.ogg",
+							"nombreDescarga":"juernesontour-20130620.ogg"
+						}
+					]
+				}
+			]
+		}
+	]
+}

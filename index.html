@@ -1,0 +1,406 @@
+
+
+	  	<meta charset="utf-8">
+	  	<title>Radio GUL</title>
+
+	  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  	<meta name="description" content="">
+	  	<meta name="author" content="">
+
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="css/bootstrap_based.css" rel="stylesheet">
+		<link href="css/banners.css" rel="stylesheet">
+
+	  	<link rel="shortcut icon" href="favicon.ico">
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+		<script type="text/javascript">
+
+			function updatedDate(){
+
+				var updateDate = new Date(document.lastModified);
+				document.getElementById('updated').innerHTML="Útima actualización: " + updateDate.toLocaleString();
+			}
+
+			window.addEventListener('load', updatedDate, false);
+
+		</script>
+
+		<style type="text/css">
+
+			.firstSection{
+				background-image: url("imgs/background2.png");
+				background-repeat: no-repeat;
+				background-size: 100%;
+				/*height: 768px;*/
+			}
+
+
+			.marketing{
+				float: right;
+				padding: 5%;
+				margin-top: 47%;
+				margin-left: 5%;
+				color: white;
+				font-size: 1.2em;
+				background: rgba(0, 0, 0, 0.6);
+				border-radius: 5px;
+				line-height: 1.5;
+			}
+
+			.marketing h2{
+				line-height: 1;
+			}
+
+			.marketing h3{
+				line-height: 1;
+			}
+
+			.btn-marketing{
+				float: right;
+				margin-right: 5%;
+			}
+
+			.marketingPromo{
+				float: right;
+				padding: 5%;
+				margin-top: 20%;
+				color: white;
+				font-size: 1.2em;
+				background: rgba(0, 0, 0, 0.6);
+				border-radius: 5px;
+				line-height: 1.5;
+			}
+
+
+			.social{
+				/*float: right;*/
+				margin-top: 10%;
+				margin-right: 5%;
+			}
+
+			.secondSection{
+				/*background-color:rgb(236, 240, 241);*/
+			}
+
+			.headerSection{
+				padding-top:4%;
+				padding-left: 2%;
+				padding-bottom: 3%;
+				font-size: 2.0em;
+				color:#7f8c8d;
+				/*color: #999;*/
+			}
+			.showTeaser{
+				padding: 5%;
+				margin: 0px;
+			}
+
+			#footer {
+    			padding-bottom: 2%;
+    			padding-top: 5px;
+    			color: #888;
+    			text-align: center;
+    			clear: both;
+    			font-size: 10px;
+    			border-top: 1px solid #bbb;
+    			background: rgba(90, 114, 125, .1);
+			}
+
+		</style>
+	</head>
+
+	<body>
+
+		<div id="fb-root"></div>
+		<script>
+			(function(d, s, id) {
+  				var js, fjs = d.getElementsByTagName(s)[0];
+  				if (d.getElementById(id)) return;
+  				js = d.createElement(s); js.id = id;
+  				js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1";
+  				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+
+
+
+			<div class="navbar navbar-fixed-top">
+				<div class="navbar-inner">
+					<div class="container-fluid">
+
+						<a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a> <a href="#" class="brand"><img src="imgs/logoradio.png" alt="logo radio gul" style="padding-right:1%;"/></a>
+
+						<div class="nav-collapse collapse navbar-responsive-collapse">
+
+							<ul class="nav pull-right">
+								<li>
+									<li class="dropdown">
+	    								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+	        								Programas
+	        								<b class="caret"></b>
+	      								</a>
+	  									<ul class="dropdown-menu">
+	   									 	<li>
+	   									 		<a href="shows/holamundo.html">Hola Mundo</a>
+	   									 	</li>
+	   									 	<li>
+	   									 		<a href="shows/irenetonight.html">Irene Tonight</a>
+	   									 	</li>
+	   									 	<li>
+	   									 		<a href="shows/juernesontour.html">Juernes On Tour</a>
+	   									 	</li>
+											<li>
+	   									 		<a href="shows/betapod.html">Betabeers Podcast</a>
+	   									 	</li>
+											<li>
+												<a href="shows/gatohubble.html">El Gato de Hubble</a>
+											</li>
+	   									 	<li>
+	   									 		<a href="shows/lacosafluye.html">La Cosa Fluye</a>
+	   									 	</li>
+	   									 	<li>
+	   									 		<a href="shows/latenight.html">Late Night</a>
+	   									 	</li>
+	  									</ul>
+									</li>
+								</li>
+								<li class="divider-vertical">
+								</li>
+								<li>
+									<a href="locutores.html">Locutores</a>
+								</li>
+								<li class="divider-vertical">
+								</li>
+								<li>
+
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+
+                      Actividades
+
+                      <b class="caret"></b>
+
+                    </a>
+
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-submenu">
+                        <a href="#">Una radio a tu alcance</a>
+                        <ul class="dropdown-menu">
+
+                          <li>
+
+                            <a href="laisla.html">2015</a>
+
+                          </li>
+                          <li>
+                            <a href="laisla_2017.html">2017</a>
+                          </li>
+                        </ul>
+
+                      </li>
+                    </ul>
+                  </li>
+                </li>
+
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="firstSection">
+				<div class="row-fluid">
+					<div class="span12">
+
+						<div class="span4">
+							<div class ="marketing">
+          						<h2>Nos gusta hablar</h2>
+          						<h3>de tecnología y m&aacute;s</h3>
+          						<h3></h3>
+          						<br/>
+          						<p>Un día nos encontramos sin estudio y con la ayuda del software libre nos montamos uno.</p><p> Hacemos radio alternativa. No has escuchado nada parecido. ¡Descubre por qué somos diferentes!</p>
+          						<p><a class="btn btn-primary btn-large btn-marketing" href="directo.html">Directo &raquo;</a></p>
+
+
+          						<div class="social">
+
+									<a href="https://twitter.com/radiogul" class="twitter-follow-button" data-show-count="false" data-lang="es" data-show-screen-name="false">Seguir a @radiogul</a>
+
+									<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+									<div class="fb-like" data-href="https://www.facebook.com/holamundoradio" data-width="100%" data-layout="button_count" data-show-faces="false" data-send="false">
+									</div>
+								</div>
+
+						</div>
+
+          					</div>
+
+          				<div class="span2"></div>
+
+					<div class="span4">
+						<div class="marketing">
+							<a href="http://www.gul.es" target="_blank">
+								<img src="imgs/logoazul.png"/>
+							</a>
+						</div>
+					</div>
+
+          				<!--<div class="span4">
+          					<div class="marketingPromo">
+          						<a href="laisla.html"><img src="imgs/laisla/laisla_cartel.jpg" width="80%" style="display:block;margin:auto;"/></a>
+          					</div>
+          				</div>-->
+
+          				</div>
+
+          				<div class="span8">
+          					<!--<div class="span12">
+          						AQUI VAN LAS VIÑETAS
+          					</div>-->
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="secondSection">
+				<div class="row-fluid">
+
+					<div class="headerSection">
+						Programas de Radio GUL
+					</div>
+
+					<div>
+
+						<div class="span4">
+							<div class="showTeaser">
+								<div class="mediumSizeBanner">
+						<a href="shows/holamundo.html"><img class="img-rounded mediumSizeImage" alt="hola mundo" src="imgs/banners/hm.png"/></a>
+						<p>
+							<a href="https://twitter.com/radiogul" target="_blank"><img class="socialLogo" src="imgs/social/twitter.png" alt="Hola Mundo Twitter"/>@radiogul</a>
+							<a href="https://twitter.com/search?q=%23HolaMundo&src=typd&mode=realtime" target="_blank">#HolaMundo</a>
+						</p>
+					</div>
+								<h3>#tecnolog&iacute;a #software #risas</h3>
+							</div>
+						</div>
+
+						<div class="span4">
+							<div class="showTeaser">
+								<div class="mediumSizeBanner">
+									<a href="shows/irenetonight.html"><img class="img-rounded mediumSizeImage" alt="irene tonight" src="imgs/banners/it.png"/></a>
+									<p>
+									<a href="https://twitter.com/IrnMM" target="_blank"><img class="socialLogo" src="imgs/social/twitter.png" alt="Irene Twitter"/>@IrnMM</a>
+									<a href="https://twitter.com/search?q=%23IreneTonight&src=typd&mode=realtime" target="_blank"> #IreneTonight</a>
+									</p>
+								</div>
+								<h3>#coaching #comunicaci&oacute;n</h3>
+							</div>
+						</div>
+
+						<div class="span4">
+							<div class="showTeaser">
+								<div class="mediumSizeBanner">
+									<a href="shows/juernesontour.html"><img class="img-rounded mediumSizeImage" alt="juernes on tour" src="imgs/banners/jot.png"/></a>
+									<p>
+									<a href="https://twitter.com/djstrikespain" target="_blank"><img class="socialLogo" src="imgs/social/twitter.png" alt="Dj Strike Twitter"/>@djstrikespain</a>
+									<a href="https://twitter.com/search?q=%23JuernesOnTour&src=typd&mode=realtime" target="_blank"> #JuernesOnTour</a>
+									</p>
+								</div>
+								<h3>#dance #trance #EDM</h3>
+							</div>
+						</div>
+					</div>
+
+					<div>
+
+						<div class="span4">
+							<div class="showTeaser">
+								<div class="mediumSizeBanner">
+									<a href="shows/betapod.html"><img class="img-rounded mediumSizeImage" alt="betapod" src="imgs/banners/bp.png"/></a>
+									<p>
+									<a href="https://twitter.com/betabeers" target="_blank"><img class="socialLogo" src="imgs/social/twitter.png" alt="Betapod Twitter"/>@betabeers</a>
+									<a href="https://twitter.com/search?q=%23Betapod&src=typd&mode=realtime" target="_blank">#Betapod</a>
+									</p>
+								</div>
+								<h3>#desarrollo #startups #beers</h3>
+							</div>
+						</div>
+
+						<div class="span4">
+							<div class="showTeaser">
+								<div class="mediumSizeBanner">
+									<a href="shows/gatohubble.html"><img class="img-rounded mediumSizeImage" alt="gato de hubble" src="imgs/banners/gh.png"/></a>
+									<p>
+									<a href="https://twitter.com/search?q=%23GatoHubble&src=typd&mode=realtime" target="_blank"><img class="socialLogo" src="imgs/social/twitter.png" alt="Late Night Twitter"/>#GatoHubble</a>
+									</p>
+								</div>
+								<h3>#ciencia #diversión</h3>
+							</div>
+						</div>
+
+						<div class="span4">
+							<div class="showTeaser">
+								<div class="mediumSizeBanner">
+									<a href="shows/lacosafluye.html"><img class="img-rounded mediumSizeImage" alt="la cosa fluye" src="imgs/banners/lcf.png"/></a>
+									<p>
+									<a href="https://twitter.com/lacosafluye" target="_blank"><img class="socialLogo" src="imgs/social/twitter.png" alt="La Cosa Fluye Twitter"/>@lacosafluye</a>
+									<a href="https://twitter.com/search?q=%23LaCosaFluye&src=typd&mode=realtime" target="_blank">#LaCosaFluye</a>
+									</p>
+								</div>
+								<h3>#proyectos #filosofía #random</h3>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div class="span4"></div>
+
+						<div class="span4">
+							<div class="showTeaser">
+								<div class="mediumSizeBanner">
+									<a href="shows/latenight.html"><img class="img-rounded mediumSizeImage" alt="late night" src="imgs/banners/ln.png"/></a>
+									<p>
+									<a href="https://twitter.com/search?q=%23LateNight&src=typd&mode=realtime" target="_blank"><img class="socialLogo" src="imgs/social/twitter.png" alt="Late Night Twitter"/>#LateNight</a>
+									</p>
+								</div>
+								<h3>#improvisación #locura #fiesta</h3>
+							</div>
+						</div>
+
+						<div class="span4"></div>
+
+					</div>
+				</div>
+			</div>
+
+
+	<div id="footer">
+  		<p>
+		El <a href="http://gul.es/">Grupo de Usuarios de Linux de la Universidad Carlos III de Madrid</a> es una asociación declarada de beneficio social por el Ministerio de Hacienda.
+		<br/>
+
+		Domicilio social: despacho 2.3C05 del edificio Sabatini, Avenida de la Universidad, 30 28911 Leganés Madrid, España.
+		<p>C.I.F.:G83296988</p>
+
+		<p>
+  			Número de registro de la comunidad de Madrid: 23500
+  		<br/>
+  			Número de registro del ayuntamiento de Leganés: 795
+		</p>
+			<p id="updated">
+				Última actualización:
+			</p>
+		</p>
+	</div>
+
+
+
+	</body>
+</html>

@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+
+      <meta charset="utf-8">
+      <title>Radio GUL</title>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+    
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/bootstrap_based.css" rel="stylesheet">
+    <link href="css/banners.css" rel="stylesheet">
+
+      <link rel="shortcut icon" href="favicon.ico">
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>	<script type="text/javascript">			function updatedDate(){				var updateDate = new Date(document.lastModified);				document.getElementById('updated').innerHTML="Útima actualización: " + updateDate.toLocaleString();			}			window.addEventListener('load', updatedDate, false);					</script>s
+
+    <style type="text/css">
+
+
+     /* #infoSection{
+
+        background-color: #00CCFF;
+
+      }*/
+
+      .firstSection{
+        
+        background: url("imgs/laisla/turtle.png");
+        background-size: 100%;
+        /*height: 768px;*/
+      }
+
+
+      .marketing{
+        float: right;
+        padding: 5%;
+        padding-right: 5%;
+        margin-top: 25%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        color: white;
+        font-size: 1.2em;
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 5px;
+        line-height: 1.5;
+      }
+
+      .marketing h2{
+        line-height: 1;
+      }
+
+      .marketing h3{
+        line-height: 1;
+      }
+
+      .btn-marketing{
+        float: right;
+        margin-right: 5%;
+      }
+
+
+      .marketingHorario{
+        float: left;
+        padding: 5%;
+        padding-right: 5%;
+        margin-top: 25%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        color: white;
+        font-size: 1.2em;
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 5px;
+        line-height: 1.5;
+      }
+
+      .marketingHorario h2{
+        line-height: 1;
+      }
+
+      .marketingHorario h3{
+        line-height: 1;
+      }
+
+      
+      .marketingFoto{
+        float: left;
+        padding-right: 5%;
+        margin-top: 25%;
+        margin-bottom: 5%;
+        
+      }
+
+
+      .social{
+        /*float: right;*/
+        margin-top: 10%;
+        margin-right: 5%;
+      }
+
+
+  
+      .showTeaser{
+        margin: 0px;
+      }
+
+    .mediumSizeBanner {
+        position: relative;
+      }
+
+    .mediumSizeImage{
+      width: 100%;
+    }
+
+    .mediumSizeBanner p{
+      position: absolute;
+      /*top: 100%; */
+      bottom: 0%;
+        left: 0;
+        width: 100%;
+
+      color: white; 
+        /*font: bold 1em Helvetica, Sans-Serif;*/
+        font: 1.0em Verdana;  
+        background: rgb(0, 0, 0); /* fallback color */
+        background: rgba(0, 0, 0, 0.4);
+        padding-top: 4%;
+        padding-bottom: 0px;
+        text-align: center;
+
+    }
+
+    .socialLogo{
+        padding-left: 8px;
+        padding-right: 4px; 
+        padding-bottom: 4px;
+    }
+
+    .mediumSizeBanner a{
+      color: white;
+    }
+
+    /* http://www.bootply.com/BassJobsen/61833 */
+     .flex-video {
+        position: relative;
+        padding-top: 25px;
+        padding-bottom: 67.5%;
+        height: 0;
+        margin-bottom: 16px;
+        overflow: hidden;
+        }
+         
+        .flex-video.widescreen { padding-bottom: 57.25%; }
+        .flex-video.vimeo { padding-top: 0; }
+         
+        .flex-video iframe,
+        .flex-video object,
+        .flex-video embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 90%;
+        }
+        @media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+        .flex-video { padding-top: 0; }
+        }
+    /**/
+
+
+      #footer {
+          padding-bottom: 2%;
+          padding-top: 5px;
+          color: #888;
+          text-align: center;
+          clear: both;
+          font-size: 10px;
+          border-top: 1px solid #bbb;
+          background: rgba(90, 114, 125, .1);
+      }
+
+    </style>
+    
+    
+  </head>
+
+  <body>
+
+      <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container-fluid">
+            
+            <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a> <a href="index.html" class="brand"><img src="imgs/logoradio.png" alt="logo radio gul" style="padding-right:1%;"/></a>
+
+            <div class="nav-collapse collapse navbar-responsive-collapse">
+                  
+              <ul class="nav pull-right">
+                <li>									<li>						<a href="directo.html">Directo</a>					</li>					<li class="divider-vertical">					</li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                          Programas
+                          <b class="caret"></b>
+                        </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a href="shows/holamundo.html">Hola Mundo</a>
+                        </li>
+                        <li>
+                          <a href="shows/irenetonight.html">Irene Tonight</a>
+                        </li>
+                        <li>
+                          <a href="shows/juernesontour.html">Juernes On Tour</a>
+                        </li>												<li>                          <a href="shows/betapod.html">Betabeers Podcast</a>                        </li>												<li>                          <a href="shows/gatohubble.html">El Gato de Hubble</a>                        </li>
+                        <li>
+                          <a href="shows/lacosafluye.html">La Cosa Fluye</a>
+                        </li>
+                        <li>
+                          <a href="shows/latenight.html">Late Night</a>
+                        </li>
+                      </ul>
+                  </li>
+                </li>
+                <li class="divider-vertical">
+                </li>
+                <li>
+                  <a href="locutores.html">Locutores</a>
+                </li>
+                <li class="divider-vertical">
+                </li>
+                <li>
+
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+
+                      Actividades
+
+                      <b class="caret"></b>
+
+                    </a>
+
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-submenu">
+                        <a href="#">Una radio a tu alcance</a>
+                        <ul class="dropdown-menu">
+
+                          <li class="active">
+
+                            <a href="laisla.html">2015</a>
+
+                          </li>
+                          <li>
+                            <a href="laisla_2017.html">2017</a>
+                          </li>
+                        </ul>
+
+                      </li>
+                    </ul>
+                  </li>
+                </li>
+              </ul>
+            </div>
+                
+          </div>
+        </div>
+      </div>
+
+
+      <div class="firstSection">
+        <div class="row-fluid"> 
+          <div class="span12">
+
+            <div class="span4">
+
+              <div class="span12">
+                <div class ="marketing">
+                        <h2 align="center">UNA RADIO A TU ALCANCE</h2>
+
+                        <h3></h3>
+                        <a href="//www.laisla.fm" target="_blank"><img src="imgs/laisla/laisla_transparente.png" align="center" width="100%"/></a>
+                        <br/>
+                        <!--<p align="center"><strong>4 HORAS DE RADIO EN DIRECTO</strong></p>
+                        <p align="center"><strong>SIENTE LA ENERGÍA</strong></p>
+                        <p><strong>TALLER - CONFERENCIA:</strong></p>
+                        <p>Equipamiento de radio digital. Desarrollo de un directo. Experiencia profesional, 15 años de radio. Levantar un proyecto: la comunidad isleña.</p>-->
+                        <p align="center"><strong>SIENTE LA ENERGÍA</strong></p>
+                        <p align="center"><strong>SONIDOS DISTINTOS, UN ÚNICO ESTILO</strong></p>
+                        <p style="float:right;"><a href="https://twitter.com/laisla_fm" class="twitter-follow-button" data-show-count="false">Follow @laisla_fm</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
+
+                    
+                </div>
+              </div>
+
+              
+
+            </div>
+
+            <div class="span4">
+
+              <div class="span12">
+                <div class ="marketingHorario">
+                  <h3>Jueves 12 de marzo de 2015</h3>
+                  <h4>De 10:00 a 14:00</h4>
+
+                  <br/>
+                  <p align="center"><strong>4 HORAS DE RADIO EN DIRECTO</strong></p>
+                  <p align="center">Carpe Diem || La Isla</p>				  				  <p align="center"><a class="btn btn-warning btn-large btn-marketingHorario" href="https://www.youtube.com/watch?v=lJ4lKf0X4YA&t=14s" target="_blank" rel="external">¡Vídeo resumen!</a></p>
+                  <br/>
+                  <p><strong>TALLER - CONFERENCIA:</strong></p>
+                  <p>Equipamiento de radio digital. Desarrollo de un directo. Experiencia profesional: 15 años de radio. Levantar un proyecto: la comunidad isleña.</p>
+                  <p><a href="docs/laisla/laislafm_proyectoUniversidades.pdf" target="_blank">Dossier</a> || <a href="docs/laisla/laislafm_contenidoDirectoTallerConferencia.pdf" target="_blank">Contenido de la actividad</a></p>
+                  <p>Solicitado reconocimiento de 1 ECTS optativo/humanidades</p>
+                  <br/>
+
+                  <p align="center">¡Sólo 50 plazas!</p>
+                  <p align="center"><a class="btn btn-primary btn-large btn-marketingHorario" href="https://docs.google.com/forms/d/1dEHeQLnt6d63S1kllrbHiUyof3p9pS5F5GV_kZT2Hr8/viewform" target="_blank" rel="external">Inscripción Gratuita</a></p>
+                  <p>*Por si no te carga, url a inscripción bit.ly/1NgpwJU</p>
+                  <br/>
+
+
+                  <h4>Sala de Vídeo (3.1.S08), Biblioteca Rey Pastor</h4>
+                  <h4>Campus de Leganés. Universidad Carlos III de Madrid</h4>
+                  
+                  
+                  
+                </div>
+              </div>
+
+
+              
+
+             
+
+
+            </div>
+
+
+            <div class="span4">
+
+              <div class="span12 marketingFoto">
+                
+                <div class="span6">
+                  <div class="showTeaser">
+                    <div class="mediumSizeBanner">
+                      <a href="#tangoModal" role="button" data-toggle="modal"><img src="imgs/laisla/tango_400x400.png" class="img-polaroid"/></a>
+                      <p>
+                      <a href="#tangoModal" role="button" class="btn btn-success" data-toggle="modal">Dj Tango</a>
+                      </p>
+                    </div>
+                    
+                  </div>
+                </div>
+
+
+                <div class="span6">
+                  <div class="showTeaser">
+                    <div class="mediumSizeBanner">
+                      <a href="#rubenModal" role="button" data-toggle="modal"><img src="imgs/laisla/ruben_400x400.jpeg" class="img-polaroid"/></a>
+                      <p>
+                      <a href="#rubenModal" role="button" class="btn btn-success" data-toggle="modal">Rubén Carpe Diem</a>
+                      </p>
+                    </div>
+                    
+                  </div>
+                </div>
+               
+              </div>
+
+             <!-- <div class="span12">
+
+                <div class="marketingFoto">
+                  <img src="imgs/laisla/laisla_albergue.jpg" class="img-polaroid" width="100%"/>
+                </div>
+
+              </div>
+              -->
+
+              <div class="span12">
+
+                <div class="flex-video widescreen" style="margin: 0 auto;text-align:center; margin:0 auto;">
+                  <iframe allowfullscreen="" src="http://www.youtube.com/embed/PnXlX796Xg0?feature=player_detailpage" frameborder="0"></iframe>
+                </div>
+                
+              </div> 
+
+
+              <div class="span12">
+                <h4>Organiza</h4>
+                <div class="span4">
+                  <a href="http://www.gul.es"><img src="imgs/laisla/gul_membrete.png" /></a>
+                </div>
+
+                <div class="span6">
+                  <a href="http://radio.gul.es"><img src="imgs/laisla/hmr_membrete.png" /></a>
+                </div>
+              </div>
+
+               <div class="span12">
+                
+                <div class="span4">
+                  <a href="https://twitter.com/holamundoradio" class="twitter-follow-button" data-show-count="false">Follow @holamundoradio</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                </div>
+
+                
+              </div>
+
+              <div class="span12">
+                <h4>Colabora</h4>
+                 <a href="http://www.uc3m.es/asociaciones" target="_blank"><img src="imgs/laisla/logo_asociaciones.png" width="70%"/></a>
+              </div>
+
+            </div>
+
+
+          </div>
+
+                  
+        </div>
+
+      </div>
+
+  
+      
+
+
+    <div id="footer">
+      <p>
+    El <a href="http://gul.es/">Grupo de Usuarios de Linux de la Universidad Carlos III de Madrid</a> es una asociación declarada de beneficio social por el Ministerio de Hacienda.
+    <br/>
+
+    Domicilio social: despacho 2.3C05 del edificio Sabatini, Avenida de la Universidad, 30 28911 Leganés Madrid, España.
+    <p>C.I.F.:G83296988</p>
+    
+    <p>
+        Número de registro de la comunidad de Madrid: 23500
+      <br/>
+        Número de registro del ayuntamiento de Leganés: 795
+    </p>
+      <p id="updated">
+        Última actualización: 
+      </p>
+    </p>
+  </div>
+
+
+
+  <!-- Modals -->
+
+  <div id="tangoModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Dj Tango</h3>
+    </div>
+    <div class="modal-body">
+
+    <p><strong>"Estás en La Isla, es tu destino."</strong></p>
+
+    <p>Tango cuenta con 15 años de experiencia en la radio. La mayor parte de su carrera la ha realizado en Loca FM, en la que estuvo desde sus comienzos y fue uno de sus pilares para su expansión a nivel nacional. En su última etapa en Loca FM consolidó su programa La Isla como uno de los referentes de música electrónica.</p>
+
+    <p>A finales de 2012 decidió iniciar el proyecto de radio online laisla.fm. Con él ha podido mantener la filosofía de La Isla y hacer una radio diferente a las fórmulas convencionales. Tango presenta en laisla.fm de lunes a viernes de 12:00 a 14:00 La Isla y los jueves de 22:00 a 00:00 Atmósfera.</p>
+
+    <p>La manera de hacer radio de Dj Tango es muy cercana al oyente y mantiene motivada a la comunidad de isleños. Ellos se lo recompensan diariamente y en el panorama nacional, Dj Tango y La Isla han sido premiados en varias ocasiones por las revistas de música electrónica más prestigiosas. En sus 15 años de carrera, ha ganado 2 DeejayMag, 1 Dj Onner y 4 Vicious Music Awards como Mejor Radio Dj Nacional del Año</p>
+
+    <p>Las diferentes facetas de Dj Tango como locutor, deejay, productor y profesor reúnen las características necesarias para que la actividad sea algo más que un taller. Su experiencia sin duda será muy enriquecedora para los asistentes.</p>
+
+    <p><strong>"Ellos no marcarán mi camino. No dejes que marquen el tuyo."</strong></p>
+    
+    </div>
+    <div class="modal-footer">
+      <a href="https://twitter.com/djtango" class="twitter-follow-button" data-show-count="false">Follow @djtango</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <!--<button class="btn" data-dismiss="modal" aria-hidden="true">OK</button>-->
+    </div>
+  </div>
+
+   <div id="rubenModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Rubén Carpe Diem</h3>
+    </div>
+    <div class="modal-body">
+    <p><strong>"Llevo el ritmo en la sangre desde que nací. Mi padre músico me educo con ese criterio especial que solo ellos poseen."</strong></p>
+
+    <p>Rubén comienza a tocar desde muy pequeño la guitarra. En general, para él la música negra siempre ha sido muy especial hasta que el House se apoderó de su alma. Es entonces cuando empieza su aventura como Dj.</p>
+
+    <p>Para Rubén, la palabra House es un estilo de vida, una manera de ver el mundo bailando y sonriendo a ritmo de house music. House es una cena en buena compañía. House es una reunión de buenos amigos, guitarra en mano al calor de la hoguera. House es una buena charla con un abuelo ... house es house...</p>
+
+    <p>A medida que pasan los años su interés por la radio crece y decide diplomarse en el CEV de Madrid. La pasión se multiplica al combinar House y radio y nace Carpediem radio show. De lunes a viernes de 10:00 a 12:00 en laisla.fm dos horas de puro house underground siempre con una selección de música muy especial. Elegancia, pureza y profundidad. Un programa para perderte y dejarte llevar allá donde más te apetezca.</p>
+
+    <p><strong>"Si le dices a alguien que me has visto en alguna parte ... haz el favor ..., asegúrate de que soy yo."</strong></p>
+
+    
+    </div>
+    <div class="modal-footer">
+    <!--<button class="btn" data-dismiss="modal" aria-hidden="true">OK</button>-->
+    <a href="https://twitter.com/Ruben_Carpediem" class="twitter-follow-button" data-show-count="false">Follow @Ruben_Carpediem</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </div>
+  </div>
+
+
+      
+  </body>
+</html>
