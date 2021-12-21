@@ -14,8 +14,9 @@ html {
   justify-content: space-between;
 }
 #navbar {
-  background-color: rgb(204, 204, 204) !important;
+  background-color: rgb(255,255,255) !important;
   box-shadow: 0px 2px 10px black;
+  height: 10vh;
 }
 .logo-nav {
   width: 7.5rem;
@@ -71,42 +72,11 @@ html {
 .text-centered-office {
   position: absolute;
   width: 100%;
-  /* Para poner el cuadrado negro en toda la imagen 
-  y no solo una banda en el medio*/
-  top: 0;
-  height: 100%;
-  /**********/
-  /*top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);*/
-  font-size: 2.4rem;
-  text-align: center;
-  color: white;
-  text-shadow: 2px 1px 5px #000;
+  top: 10vh;
+  height: 50%;
   z-index: 5 !important;
-  background-color: rgba(54, 54, 54, 0.616);
-}
-
-#nos-gusta-jugar {
-  position: relative;
-  top: 45%;
-}
-
-.fortuna {
-  font-size: 0.6em;
-  font-style: italic;
-  margin: auto;
-  line-height: normal;
-  max-width: 70%;
-  white-space: break-spaces;
-}
-
-#nos-gusta-jugar #fortuna-texto {
-  text-align: justify;
-  
-}
-#nos-gusta-jugar #fortuna-autor {
-  text-align: left;
+  display: flex;
+  align-items: center;
 }
 
 /* <<<<<<  MAIN SECTION SECTION END >>>>>> */

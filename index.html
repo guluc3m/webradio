@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <!-- ====== CSP ====== -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://*.tile.openstreetmap.org; object-src https://gh-card.dev; script-src 'self'; style-src 'self'; frame-src 'none'; base-uri 'self'; form-action 'self'; font-src 'self'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://radio.gul.es; img-src 'self'; object-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'self'; font-src 'self'">
     <!-- ====== SEO ====== -->
-    <meta name="description" content="El Grupo de Usuarios de Linux es una asociación de estudiantes unidos por nuestras inquietudes en torno a los ordenadores, la informática y, en concreto, la idea común de la utilización y promoción del software libre.">
-    <meta property="og:title" content="Grupo de Usuarios de Linux de la UC3M" />
-    <meta property="og:url" content="https://gul.es/" />
-    <meta property="og:image" content="static/images/logo_horizontal_gray.svg" />
+    <meta name="description" content="Radio GUL es la radio online del GUL UC3M (gul.es) donde hablamos de tecnología, temas de la universidad y lo que se nos ocurra.">
+    <meta property="og:title" content="Radio GUL UC3M" />
+    <meta property="og:url" content="https://radio.gul.es/" />
+    <meta property="og:image" content="static/images/logoazul.png" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="El Grupo de Usuarios de Linux es una asociación de estudiantes unidos por nuestras inquietudes en torno a los ordenadores, la informática y, en concreto, la idea común de la utilización y promoción del software libre." />
+    <meta property="og:description" content="Radio GUL es la radio online del GUL UC3M (gul.es) donde hablamos de tecnología, temas de la universidad y lo que se nos ocurra." />
     <meta property="og:locale" content="es_ES" />
     <!-- ====== FAVICON ====== -->
     <link rel="icon" href="static/images/favicon.png" />
@@ -23,45 +23,26 @@
     <link rel="stylesheet" href="static/style/bootstrap/css/bootstrap.min.css"/>
     <!-- ====== FONTS ====== -->
     <link rel="stylesheet" href="static/style/fonts/gfonts.css"/>
-    <!-- ====== LEAFLET CSS ====== -->
-    <link rel="stylesheet" href="static/style/leaflet/leaflet.css" />
-    <!-- ====== LEAFLET JS ====== -->
-    <script type="text/javascript" src="static/js/leaflet.js" async></script>
-    <!-- FORTUNAS -->
-    <script type="text/javascript" src="static/js/fortunas.js" async></script>
     <!-- ====== OWN JS ====== -->
     <script type="text/javascript" src="static/js/jquery-3.6.0.min.js" defer></script>
     <script type="text/javascript" src="static/js/script.js" defer></script>
     <!-- ====== BOOTSTRAP JS ====== -->
     <script type="text/javascript" src="static/style/bootstrap/js/bootstrap.min.js" defer></script>
-    <!-- ====== GITHUB CARD ====== -->
-    <!-- No se muestra en la web, ni idea porqué, pero aquí se queda por si acaso
-        <script src="static/js/github-cards.js" defer></script>
-    -->
   </head>
   <body>
     <!-- ====== NAV SECTION ====== -->
     <header id="nav-section">
       <nav
         id="navbar"
-        class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
-      >
+        class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid m-3 mt-0 mb-0">
           <a class="navbar-brand" href="#main-section" aria-current="page">
             <img
               class="logo-nav"
-              src="static/images/logo_horizontal_gray.svg"
-              alt="Logo GUL Image"/>
+              src="static/images/logoradio.png"
+              alt="Logo GUL Radio"/>
           </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -87,31 +68,23 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" target="_blank" href="https://radio.gul.es" title="Enlace a radio.gul.es" aria-disabled="true">
-                  <img class="image-nav" src="static/images/icon/radio.svg" alt="Radio icon"/>
+                <a class="nav-link" target="_blank" href="https://gul.es" title="Enlace a gul.es" aria-disabled="true">
+                  <img class="image-nav" src="static/images/icon/home.svg" alt="gul.es icon"/>
                 </a>
               </li>
             </ul>
             <ul class="navbar-nav nav-container-text">
               <li class="nav-item">
-                <a class="nav-link" href="#what-is-gul-section">
-                  Quienes somos
-                </a>
+                <a class="nav-link" href="#what-is-gul-section"> Quienes somos </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#where-we-are-section">
-                  Donde estamos
-                </a>
+                <a class="nav-link" href="#where-we-are-section"> Donde estamos </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href='#curiuous-section'>
-                  Curiosea
-                </a>
+                <a class="nav-link" href='#curiuous-section'> Curiosea </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact-section">
-                  Únete
-                </a>
+                <a class="nav-link" href="#contact-section"> Únete </a>
               </li>
             </ul>
           </div>
@@ -124,12 +97,9 @@
       <section id="main-section">
         <div class="container-fluid image-main-section"></div>
         <div class="text-centered-office">
-          <div id="nos-gusta-jugar" class="title-text-centered">
-              <h1 class="mb-3">NOS GUSTA JUGAR CON LA TECNOLOGÍA</h1>
-              <p id="fortuna-texto" class="fortuna" aria-hidden="true"></p>
-              <p id="fortuna-autor" class="mt-3 fortuna" aria-hidden="true"></p>
-          </div>
-
+            <iframe src="https://radio.gul.es/public/gul_uc3m/embed?theme=dark" frameborder="0"
+                allowtransparency="true" style="width: 100%; min-height: 150px; border: 0;">
+            </iframe>
         </div>
       </section>
 
@@ -159,97 +129,12 @@
         </div>
 
         <div id="overlay-img">
-          <img
-            src="static/images/what-is-gul.avif"
-            id="img-container"
-            alt="Universidad Carlos III de Madrid"
-          />
+          <img src="static/images/what-is-gul.avif" id="img-container" alt="Universidad Carlos III de Madrid" />
           <a href="https://www.uc3m.es" target="_blank">
             <div class="overlay">
               <div class="text">Universidad Carlos III de Madrid</div>
             </div>
           </a>
-        </div>
-      </section>
-
-      <!-- ====== WHERE WE ARE SECTION ====== -->
-      <section id="where-we-are-section">
-        <!--
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
-        </svg>
-        -->
-
-        <div id="map" class="map map-home"></div>
-
-        <div id="coordinates">
-          <div class="coordinates-title">
-            <h3>DÓNDE ESTAMOS</h3>
-          </div>
-          <div class="coordinates-desc">
-            <p>Avenida de la Universidad, 30, 28911 Leganés, Madrid</p>
-            <p>Edificio Sabatini</p>
-            <p>2.3C05</p>
-          </div>
-        </div>
-      </section>
-
-      <!-- ====== CURIUOUS SECTION ====== -->
-
-      <section id="curiuous-section">
-        <div id="cur-title">
-          <h3>¡MIRA LO QUE HEMOS HECHO!</h3>
-        </div>
-
-        <div id="cur-container">
-          <!--
-          Descomentar si algún día github-cards funciona
-          <div
-            class="github-card"
-            data-github="guluc3m"
-            data-height="341"
-            data-theme="medium"
-          ></div>
-          -->
-
-          <div class="top-cards">
-            <div class="top-row">
-              <div class="top-col">
-                <object
-                  type="image/svg+xml"
-                  data="https://gh-card.dev/repos/guluc3m/webpage.svg?link_target=_blank"
-                >Webpage</object>
-                <object
-                  type="image/svg+xml"
-                  data="https://gh-card.dev/repos/guluc3m/Actas.svg?link_target=_blank"
-                >Actas</object>
-                <object
-                  type="image/svg+xml"
-                  data="https://gh-card.dev/repos/guluc3m/OpenGLCurso.svg?link_target=_blank"
-                >OpenGLCurso</object>
-
-              </div>
-              <div class="top-col">
-                <object
-                  type="image/svg+xml"
-                  data="https://gh-card.dev/repos/guluc3m/zoe-lib-python.svg?link_target=_blank"
-                >Zoe-lib-python</object>
-                <object
-                  type="image/svg+xml"
-                  data="https://gh-card.dev/repos/guluc3m/zoe-lib-java.svg?link_target=_blank"
-                >Zoe-lib-java</object>
-                <object
-                  type="image/svg+xml"
-                  data="https://gh-card.dev/repos/guluc3m/morgana.svg?link_target=_blank"
-                >Morgana</object>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -290,6 +175,8 @@
           </div>
         </div>
       </section>
+
+      <!-- ==== Parte legal ==== -->
       <section id="legal-section">
         <div class="text-desc text-center">
           <p>
@@ -305,6 +192,7 @@
           </p>
         </div>
       </section>
+      <!-- ====================== -->
     </main>
   </body>
 </html>
