@@ -1,0 +1,465 @@
+html {
+  width: 100% !important;
+}
+* {
+  box-sizing: border-box;
+}
+
+.no-style {
+  text-decoration: inherit;
+}
+
+/* ======  NAV SECTION START ====== */
+#navbarNav {
+  justify-content: space-between;
+}
+#navbar {
+  background-color: rgb(204, 204, 204) !important;
+  box-shadow: 0px 2px 10px black;
+}
+.logo-nav {
+  width: 7.5rem;
+}
+.image-nav {
+  width: 2rem;
+}
+.bg-light {
+  transition: ease 1s;
+}
+.container-fluid {
+  padding: 0px !important;
+}
+.nav-container-icon > .nav-item {
+  margin-right: 20px;
+  transition: ease 0.5s;
+  border-radius: 40px;
+  align-items: center;
+}
+.nav-container-icon > .nav-item:hover {
+  background-color: #d7d8d8;
+}
+.nav-container-text > .nav-item {
+  transition: ease 0.5s;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.nav-link {
+  color: black !important;
+}
+.nav-link:hover {
+  cursor: pointer;
+}
+.nav-container-text > .nav-item:hover {
+  background-color: #d7d8d8;
+  transform: scale(1.1);
+}
+/* <<<<<<  NAV SECTION END >>>>>> */
+
+/* ======  MAIN SECTION START ====== */
+
+#main-section > .image-main-section {
+  position: relative;
+  background-image: url("../images/background/office.avif");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 4;
+  filter: blur(2px);
+  height: 100vh;
+  width: auto;
+}
+.text-centered-office {
+  position: absolute;
+  width: 100%;
+  /* Para poner el cuadrado negro en toda la imagen 
+  y no solo una banda en el medio*/
+  top: 0;
+  height: 100%;
+  /**********/
+  /*top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+  font-size: 2.4rem;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 1px 5px #000;
+  z-index: 5 !important;
+  background-color: rgba(54, 54, 54, 0.616);
+}
+
+#nos-gusta-jugar {
+  position: relative;
+  top: 45%;
+}
+
+.fortuna {
+  font-size: 0.6em;
+  font-style: italic;
+  margin: auto;
+  line-height: normal;
+  max-width: 70%;
+  white-space: break-spaces;
+}
+
+#nos-gusta-jugar #fortuna-texto {
+  text-align: justify;
+  
+}
+#nos-gusta-jugar #fortuna-autor {
+  text-align: left;
+}
+
+/* <<<<<<  MAIN SECTION SECTION END >>>>>> */
+
+/* ======  WHAT IS GUL SECTION START ====== */
+
+#what-is-gul-section {
+  font-size: 1.2rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/background/what-is-gul-background.avif") center
+    center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-container {
+  width: 40%;
+}
+.text-title {
+  text-align: center;
+  border-bottom: 1px solid #000;
+  padding: 10px 0px;
+  background-color: rgb(0, 117, 176);
+  color: #ffffff;
+}
+.text-desc {
+  text-align: justify;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+#overlay-img {
+  position: relative;
+  width: 35%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+#overlay-img:hover .overlay {
+  opacity: 0.75;
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 4px #000);
+}
+.overlay > .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#img-container {
+  width: 100%;
+  transition: all 0.3s;
+}
+#img-container:hover {
+  box-shadow: -20px -20px rgb(167, 167, 167);
+  transform: translate(20px, 20px);
+  filter: opacity(70%);
+}
+#tux-gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+/* <<<<<<  MAIN SECTION SECTION END >>>>>> */
+
+/* ======  WHERE WE ARE SECTION START ====== */
+#where-we-are-section > svg {
+  fill: #ffffff;
+}
+#where-we-are-section {
+  height: 100vh;
+  /*background-color: #e0dfdf;*/
+  background: url("../images/background/where-we-are-background.avif") center
+    center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#map {
+  height: 75vh;
+  width: 50%;
+  border: 2px solid rgb(0, 117, 176);
+  /*margin-left: 30px;*/
+  border-radius: 40px;
+}
+#coordinates {
+  border: 1px solid #000;
+  width: 30%;
+  transition: all 0.4s;
+}
+#coordinates:hover {
+  box-shadow: -13px -13px rgb(46, 58, 82);
+  transform: translate(13px, 13px);
+}
+.coordinates-title {
+  background-color: rgb(0, 117, 176);
+  color: #ffffff;
+  padding: 10px 0px;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+.coordinates-desc {
+  font-size: 1.2rem;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* <<<<<<  WHERE WE ARE SECTION END >>>>>> */
+
+/* ====== CURIUOUS SECTION START ====== */
+
+#curiuous-section {
+  height: 100vh;
+  background: url("../images/background/curiuous-background.avif") center center
+    no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#cur-title {
+  text-align: center;
+  background-color: rgb(0, 117, 176);
+  width: 40%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border: 1px solid #000;
+}
+#cur-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.top-cards{
+  margin-top: 20px;
+}
+.top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.top-col{
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.top-col object{
+  margin: 15px;
+  transition: all 0.5s ease;
+  border-radius: 5px;
+}
+.top-col object:hover {
+  box-shadow: -10px -10px rgb(57, 160, 26);
+  transform: translate(10px,10px);
+}
+/* <<<<<<  CURIUOUS SECTION END >>>>>> */
+
+/* ======  CONTACT SECTION START ====== */
+
+#contact-section {
+  background: url('../images/background/contact-background.avif') center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#contact-title {
+  color: #ffffff;
+  background-color: rgb(0, 117, 176);
+  width: 30%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border: 1px solid #000;
+  text-align: center;
+}
+#contact-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  width: 60%;
+}
+
+.contacts {
+  width: 45%;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+/* <<<<<<  CONTACT SECTION END >>>>>> */
+
+/* ======  MEDIA QUERY SECTION START ====== */
+
+@media screen and (max-width:1400px){
+  #cur-container{
+    flex-direction: column;
+  }
+  #contact-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav-container-icon {
+    flex-direction: row !important;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+  }
+  .nav-container-text {
+    border-top: 1px solid #d7d8d8;
+  }
+  .nav-container-text > .nav-item {
+    text-align: center;
+  }
+  .nav-container-icon > .nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #what-is-gul-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .text-container {
+    width: 80%;
+  }
+  #overlay-img {
+    display: none;
+  }
+  #where-we-are-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #map {
+    margin-top: 10%;
+    height: 40vh;
+    width: 90vw;
+  }
+  #coordinates {
+    margin-top: 5%;
+    width: 70%;
+  }
+  .coordinates-desc {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  #cur-title{
+    width: 60%;
+  }
+  #cur-container{
+    flex-flow: row wrap;
+  }
+  .top-col object{
+    width: 300px;
+  }
+  #contact-title {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+  }
+  #contact-container {
+    width: 100%;
+  }
+  #contact-container .text-container {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fortuna {
+    font-size: 0.7em;
+  }
+  .top-col{
+    margin-right: 0px;
+  }
+  .top-col object{
+    width: 250px;
+  }
+  .top-col object:hover{
+    transform: none;
+    box-shadow: none;
+  }
+  #cur-container {
+    overflow: scroll;
+  }
+  #contact-container {
+    overflow: scroll;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .text-centered-office {
+    font-size: 1.3rem;
+  }
+  #what-is-gul-section {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem;
+  }
+  .text-container {
+    width: 90%;
+  }
+  #cur-title{
+    width: 90%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  #ghcard-guluc3m-1{
+    display: none;
+  }
+  .top-cards{
+    margin-top: 0px;
+  }
+  .top-row{
+    flex-direction: column;
+  }
+  .top-col object{
+    width: 90%;
+  }
+
+}
+
+/* <<<<<<  MEDIA QUERY SECTION END >>>>>> */
