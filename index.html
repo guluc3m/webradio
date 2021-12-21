@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <title>GUL UC3M | Inicio</title>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- ====== CSP ====== -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://radio.gul.es; img-src 'self'; object-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'self'; font-src 'self'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://radio.gul.es; img-src 'self' data:; object-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'self'; font-src 'self'">
     <!-- ====== SEO ====== -->
     <meta name="description" content="Radio GUL es la radio online del GUL UC3M (gul.es) donde hablamos de tecnología, temas de la universidad y lo que se nos ocurra.">
     <meta property="og:title" content="Radio GUL UC3M" />
@@ -13,39 +15,28 @@
     <meta property="og:description" content="Radio GUL es la radio online del GUL UC3M (gul.es) donde hablamos de tecnología, temas de la universidad y lo que se nos ocurra." />
     <meta property="og:locale" content="es_ES" />
     <!-- ====== FAVICON ====== -->
-    <link rel="icon" href="static/images/favicon.png" />
-    <!-- ====== RESPONSIVE TAG ====== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GUL UC3M | Inicio</title>
-    <!-- ====== OWN STYLESHEETS ====== -->
-    <link rel="stylesheet" href="static/style/styles.css" />
-    <!-- ====== BOOTSTRAP STYLESHEETS ====== -->
+    <link rel="icon" href="static/images/favicon.png" />    
     <link rel="stylesheet" href="static/style/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="static/style/styles.css" />
     <!-- ====== FONTS ====== -->
     <link rel="stylesheet" href="static/style/fonts/gfonts.css"/>
-    <!-- ====== OWN JS ====== -->
     <script type="text/javascript" src="static/js/jquery-3.6.0.min.js" defer></script>
-    <script type="text/javascript" src="static/js/script.js" defer></script>
-    <!-- ====== BOOTSTRAP JS ====== -->
     <script type="text/javascript" src="static/style/bootstrap/js/bootstrap.min.js" defer></script>
+    <script type="text/javascript" src="static/js/script.js" defer></script>
   </head>
   <body>
     <!-- ====== NAV SECTION ====== -->
     <header id="nav-section">
-      <nav
-        id="navbar"
-        class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container-fluid m-3 mt-0 mb-0">
-          <a class="navbar-brand" href="#main-section" aria-current="page">
-            <img
-              class="logo-nav"
-              src="static/images/logoradio.png"
-              alt="Logo GUL Radio"/>
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+        <div class="row col-12 p-0 m-0 justify-content-between">
+          <a class="navbar-brand" href="#player-section" aria-current="page">
+            <img class="logo-nav" src="static/images/logoradio.png" alt="Logo GUL Radio"/>
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+          <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
             <ul class="navbar-nav nav-container-icon">
               <li class="nav-item">
                 <a class="nav-link active" target="_blank" aria-current="false" href="https://twitter.com/guluc3m" title="Enlace a Twitter">
@@ -74,18 +65,10 @@
               </li>
             </ul>
             <ul class="navbar-nav nav-container-text">
-              <li class="nav-item">
-                <a class="nav-link" href="#what-is-gul-section"> Quienes somos </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#where-we-are-section"> Donde estamos </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href='#curiuous-section'> Curiosea </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact-section"> Únete </a>
-              </li>
+              <li class="nav-item"> <a class="nav-link" href="#what-is-gul-section"> Quienes somos </a> </li>
+              <li class="nav-item"> <a class="nav-link" href="#where-we-are-section"> Donde estamos </a> </li>
+              <li class="nav-item"> <a class="nav-link" href='#curiuous-section'> Curiosea </a> </li>
+              <li class="nav-item"> <a class="nav-link" href="#contact-section"> Únete </a> </li>
             </ul>
           </div>
         </div>
@@ -94,90 +77,54 @@
 
     <!-- ====== MAIN SECTION ====== -->
     <main>
-      <section id="main-section">
-        <div class="container-fluid image-main-section"></div>
-        <div class="text-centered-office">
-            <iframe src="https://radio.gul.es/public/gul_uc3m/embed?theme=dark" frameborder="0"
-                allowtransparency="true" style="width: 100%; min-height: 150px; border: 0;">
-            </iframe>
-        </div>
+      <section id="player-section" class="row justify-content-center col-12 p-0">
+        <iframe src="https://radio.gul.es/public/gul_uc3m/embed?theme=dark" frameborder="0"
+            allowtransparency="true" class="col-8">
+        </iframe>
       </section>
 
-      <!-- ====== WHAT IS GUL SECTION ====== -->
+      <!-- ====== Bloque con los distintos programas que hay ====== -->
 
-      <section id="what-is-gul-section">
-        <div class="text-container">
-          <div class="text-title">
-            <h3>¿QUÉ ES EL GUL?</h3>
+      <section id="programs-section" class="row justify-content-center mt-4 col-12 p-0">
+        <div id="hmr" class="program col-5">
+          <div class="text-title text-center p-3">
+            <h3>Hola Mundo Radio</h3>
           </div>
-          <div class="text-desc">
-            <p>
-              El <b>Grupo de Usuarios de Linux</b> es una asociación de
-              estudiantes unidos por nuestras inquietudes en torno a los
-              ordenadores, la informática y, en concreto, la idea común de la
-              utilización y promoción del <a class="no-style" target="_blank" href="https://www.gnu.org/philosophy/free-sw.es.html"><b>software libre</b></a>.
-            </p>
-            <p>
-              Nos reunimos el segundo viernes de cada mes para aprender y
-              compartir conocimientos, normalmente esto se traduce en tomar algo
-              todos juntos. Si no estás aquí por la fiesta, también tenemos algunos
-              grupos de trabajo enfocados en distintos áreas de la informática y la tecnología, como
-              <b>Juegos, Radio o IA</b>.
-            </p>
-            <img src="static/images/tuxAnimated.gif" alt="tux-gif" id="tux-gif" />
+          <div class="text-desc border border-dark">
+            Hola Mundo Radio (HMR) iba sobre drogados haciendo cosas de drogado
           </div>
         </div>
 
-        <div id="overlay-img">
-          <img src="static/images/what-is-gul.avif" id="img-container" alt="Universidad Carlos III de Madrid" />
-          <a href="https://www.uc3m.es" target="_blank">
-            <div class="overlay">
-              <div class="text">Universidad Carlos III de Madrid</div>
-            </div>
-          </a>
-        </div>
-      </section>
-
-      <!-- ====== CONTACT SECTION ====== -->
-      <section id="contact-section">
-
-        <div id="contact-title" class="mb-4">
-          <h3>¿TE HEMOS ATRAÍDO? ¡PARTICIPA!</h3>
-        </div>
-        <div id="contact-container" class="p-2">
-          <div class="text-container">
-            <div class="text-title">
-              <h3>Lista de Correo</h3>
-            </div>
-            <div class="text-desc">
-              <p>
-                Para contactar con nosotros por correo puedes escribirnos a: <b>info AT gul.uc3m.es</b>
-              </p>
-              <p> O suscribirte a la lista y empezar a participar en la misma: <a class="no-style" href="https://lista.gul.es/postorius/lists/lista.gul.uc3m.es/" target="_blank">lista.gul.es</a>
-              </p>
-            </div>
+        <div id="irene-tonight" class="program col-5">
+          <div class="text-title text-center p-3">
+            <h3>Irene Tonight</h3>
           </div>
+          <div class="text-desc border border-dark">
+            Hola Mundo Radio (HMR) iba sobre drogados haciendo cosas de drogado
+          </div>
+        </div>
 
-          <div class="text-container">
-            <div class="text-title">
-              <h3>Otros contactos</h3>
-            </div>
-            <div class="text-desc">
-              <p>
-              Si no te gustan los correos porque son muy de antes de que nacieras y no has tenido la suerte de encontrarnos en el despacho (Covid y esas cosas...), también tenemos grupo de:
-              </p>
-              <ul>
-                  <li><b>Telegram</b>: Canal de comunicación principal junto con la lista de correo</li>
-                  <li><b>Discord</b>: Para reuniones telemáticas principalmente</li>
-              </ul>
-              Para evitar que se nos metan bots continuamente son <b>por invitación</b> y por lo tanto tendrás que mandarnos un correo igualmente
-            </div>
+        <div id="betabeers" class="program col-5 mt-4">
+          <div class="text-title text-center p-3">
+            <h3>βetaBeers</h3>
+          </div>
+          <div class="text-desc border border-dark">
+            Hola Mundo Radio (HMR) iba sobre drogados haciendo cosas de drogado
+          </div>
+        </div>
+
+        <div id="/dev/random" class="program col-5 mt-4">
+          <div class="text-title text-center p-3">
+            <h3>/dev/random</h3>
+          </div>
+          <div class="text-desc border border-dark">
+            Hola Mundo Radio (HMR) iba sobre drogados haciendo cosas de drogado
           </div>
         </div>
       </section>
 
       <!-- ==== Parte legal ==== -->
-      <section id="legal-section">
+      <section id="legal-section" class="border-top border-dark mt-4">
         <div class="text-desc text-center">
           <p>
           El Grupo de Usuarios de Linux de la Universidad Carlos III de Madrid es una asociación declarada de beneficio social por el Ministerio de Hacienda.
