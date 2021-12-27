@@ -10,11 +10,6 @@ html {
 }
 
 /* ======  NAV SECTION START ====== */
-#nav-section {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
 #navbar {
   background-color: rgb(255,255,255) !important;
   box-shadow: 0px 2px 10px black;
@@ -55,6 +50,7 @@ html {
   height: 50vh; /* La mitad de la pantalla */
   background: linear-gradient(0deg, rgb(28, 49, 68) 5%, rgb(255, 255, 255) 100%);
   align-items: center;
+  padding-top: 10vh !important;
 }
 
 #player-section iframe {
@@ -66,6 +62,7 @@ html {
   height: 80vh; /* La mitad de la pantalla */
   background: linear-gradient(0deg, rgb(28, 49, 68) 5%, rgb(255, 255, 255) 100%);
   align-items: center;
+  padding-top: 10vh !important;
 }
 
 #on-demand-section iframe {
