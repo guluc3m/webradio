@@ -10,11 +10,6 @@ html {
 }
 
 /* ======  NAV SECTION START ====== */
-#nav-section {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
 #navbar {
   background-color: rgb(255,255,255) !important;
   box-shadow: 0px 2px 10px black;
@@ -53,14 +48,35 @@ html {
 
 #player-section {
   height: 50vh; /* La mitad de la pantalla */
+  background: linear-gradient(0deg, rgb(28, 49, 68) 5%, rgb(255, 255, 255) 100%);
+  align-items: center;
+  padding-top: 10vh !important;
 }
 
-#programs-section {
-
+#player-section iframe {
+  background: white;
+  border-radius: 10px;
 }
+
+#on-demand-section {
+  height: 80vh; /* La mitad de la pantalla */
+  background: linear-gradient(0deg, rgb(28, 49, 68) 5%, rgb(255, 255, 255) 100%);
+  align-items: center;
+  padding-top: 10vh !important;
+}
+
+#on-demand-section iframe {
+  min-height: 60vh;
+}
+
 /* <<<<<<  MAIN SECTION SECTION END >>>>>> */
 
-/* ======  WHAT IS GUL SECTION START ====== */
+/* Programs */
+#programs-section {
+  background-image: url("../images/logo_blue_w.svg");
+  background-color: #1c3144;
+  background-size: cover;
+}
 
 .text-title {
   background-color: rgb(0, 117, 176);
@@ -77,7 +93,7 @@ html {
   width: 35%;
 }
 
-/* <<<<<<  MAIN SECTION SECTION END >>>>>> */
+/* Programs end */
 
 /* ======  MEDIA QUERY SECTION START ====== */
 
