@@ -106,6 +106,9 @@ html {
   background-size: cover;
 }
 
+.icons-section {
+  display:flex;
+}
 
 .text-title {
   background-color: rgb(0, 117, 176);
