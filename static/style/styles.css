@@ -89,10 +89,25 @@ html {
 /* <<<<<<  MAIN SECTION SECTION END >>>>>> */
 
 /* Programs */
+
+#historic {
+  margin-top: 30px;
+  margin-bottom:30px;
+  margin-left: 30%;
+  margin-right:30%;
+  color:white;
+  background-color: rgb(28, 49, 68)
+}
+
+
 #programs-section {
   background-image: url("../images/logo_blue_w.svg");
   background-color: #1c3144;
   background-size: cover;
+}
+
+.icons-section {
+  display:flex;
 }
 
 .text-title {
