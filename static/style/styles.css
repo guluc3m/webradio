@@ -70,7 +70,7 @@ html {
 
 /* on-demand section */
 #on-demand-section {
-  height: 80vh; /* La mitad de la pantalla */
+  height: 100%; /* La mitad de la pantalla */
   background: linear-gradient(0deg, rgb(28, 49, 68) 5%, rgb(255, 255, 255) 100%);
   align-items: center;
   padding-top: 10vh !important;
@@ -79,7 +79,7 @@ html {
 #on-demand-section iframe {
   position:absolute; top:0px; left:0px; 
   width:100%;
-  height:80%;
+  height:100%;
   border: none;
   overflow: visible;
 }
